@@ -4,7 +4,6 @@
 const helpers = {
   /**
    * Takes a hexadecimal string and converts it to an Unicode character
-   * @constructor
    * @param {string} hexString - A four-digit number in hex notation (eg, 00E7).
    */
   ToUnichar: (hexString) => {

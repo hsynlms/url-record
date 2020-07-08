@@ -5,7 +5,6 @@ const seoCharTable = require('./seoCharTable')
 
 /**
  * Gets seo-friendly name
- * @constructor
  * @param {string} name - Name.
  * @param {boolean} convertNonWesternChars - A value indicating whether non western chars should be converted.
  * @param {boolean} allowUnicodeCharsInUrls - A value indicating whether Unicode chars are allowed.
