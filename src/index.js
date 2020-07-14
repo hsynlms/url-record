@@ -5,7 +5,7 @@ const seoCharTable = require('./seoCharTable')
 
 /**
  * Gets seo-friendly name
- * @param {string} name - Name.
+ * @param {string} name - Name / The text that will be slugified.
  * @param {boolean} convertNonWesternChars - A value indicating whether non western chars should be converted.
  * @param {boolean} allowUnicodeCharsInUrls - A value indicating whether Unicode chars are allowed.
  */
@@ -26,8 +26,8 @@ const GetSeoFriendlyName = (name, convertNonWesternChars = true, allowUnicodeCha
 
     // validations
     if (convertNonWesternChars && c in seoCharTable) {
-      // try to get character from seo character table
       // if non-western char conversion is enabled
+      // try to get lower-case character from seo character table
       c = seoCharTable[c].toLowerCase()
     }
 
@@ -38,14 +38,14 @@ const GetSeoFriendlyName = (name, convertNonWesternChars = true, allowUnicodeCha
       // validations
       if (/[a-zA-Z-0-9]/g.test(c) || okChars.indexOf(c) >= 0) {
         // if the character is letter or digit
-        // and the character does exist in 'okChars'
-        // append it to the output
+        // or the character does exist in 'okChars'
+        // append the char to the output
         output += c
       }
     } else if (okChars.indexOf(c) >= 0) {
-      // unicode chars are not allowed in URLs
-      // if the character does exist in 'okChars'
-      // append it to the output
+      // if the unicode chars are not allowed in URLs
+      // and the character does exist in 'okChars'
+      // append the char to the output
       output += c
     }
   }
