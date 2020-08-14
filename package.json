@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/hsynlms/url-record#readme",
   "devDependencies": {
-    "jest": "^26.1.0",
+    "jest": "^26.4.0",
     "snazzy": "^8.0.0",
     "standard": "^14.3.4"
   }
