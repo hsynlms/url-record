@@ -3,6 +3,9 @@
 
 [![NPM](https://nodei.co/npm/url-record.png)](https://nodei.co/npm/url-record/)
 
+## Why url-record?
+The reason behind this repository is nopCommerce, is an open source ASP.NET Core based ecommerce solution. I just wanted to create a port of the nopCommerce SEO friendly slug generation service which is in production for years and trusted by tens of thousands of stores.
+
 ## Installation
 `npm install url-record --save`
 
