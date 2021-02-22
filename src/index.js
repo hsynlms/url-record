@@ -8,6 +8,7 @@ const seoCharTable = require('./seoCharTable')
  * @param {string} name - Name / The text that will be slugified.
  * @param {boolean} convertNonWesternChars - A value indicating whether non western chars should be converted.
  * @param {boolean} allowUnicodeCharsInUrls - A value indicating whether Unicode chars are allowed.
+ * @returns {string} Seo-friendly generated name
  */
 const GetSeoFriendlyName = (name, convertNonWesternChars = true, allowUnicodeCharsInUrls = false) => {
   // validation
