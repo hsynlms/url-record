@@ -1,7 +1,7 @@
 {
   "name": "url-record",
   "version": "1.0.1",
-  "description": "",
+  "description": "a simple, fast and lightweight slug generator",
   "main": "src/index.js",
   "scripts": {
     "test": "jest --verbose -i test.js -t",
