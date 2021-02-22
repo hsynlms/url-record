@@ -7,7 +7,7 @@ const helpers = {
    * @param {string} hexString - A four-digit number in hex notation (eg, 00E7).
    * @returns {string} Unicode character of the given hexadecimal string
    */
-  ToUnichar: (hexString) => {
+  ToUnichar: hexString => {
     return String.fromCodePoint(`0x${hexString}`)
   }
 }
