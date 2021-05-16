@@ -1,6 +1,6 @@
 {
   "name": "url-record",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a simple, fast and lightweight slug generator",
   "main": "src/index.js",
   "scripts": {
