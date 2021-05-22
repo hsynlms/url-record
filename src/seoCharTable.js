@@ -1,6 +1,5 @@
 'use strict'
 
-// import required local modules
 const helpers = require('./helpers')
 
 /**
@@ -14,7 +13,6 @@ const helpers = require('./helpers')
  */
 const initializeSeoCharacterTable =
   () => {
-    // define the table
     const seoCharacterTable = {
       [helpers.ToUnichar('0041')]: 'A',
       [helpers.ToUnichar('0042')]: 'B',
@@ -1047,9 +1045,7 @@ const initializeSeoCharacterTable =
       [helpers.ToUnichar('045E')]: 'u' // Byelorussian SMALL LETTER ў
     }
 
-    // return the table
     return seoCharacterTable
   }
 
-// export the seo character table
 module.exports = initializeSeoCharacterTable()

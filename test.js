@@ -1,6 +1,5 @@
 'use strict'
 
-// import required local modules
 const getSeoFriendlyName = require('./src/index')
 
 // eslint-disable-next-line
