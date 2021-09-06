@@ -7,6 +7,12 @@
 ## Why url-record?
 The reason behind this repository is nopCommerce, is an open source ASP.NET Core based ecommerce solution. I just wanted to create a port of the nopCommerce SEO friendly slug generation service which is in production for years and trusted by tens of thousands of stores.
 
+## Benchmarks
+
+There are a few of slug generators in NPM world and the following repository has benchmarks for some of them.
+
+https://github.com/hsynlms/node-slugify-benchmarks
+
 ## Install
 ```
 $ npm install url-record --save
